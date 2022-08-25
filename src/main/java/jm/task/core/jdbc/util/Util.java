@@ -41,9 +41,9 @@ public class Util {
             Configuration configuration = new Configuration();
 
             Properties properties = new Properties();
-            properties.put(Environment.URL,"jdbc:mysql://localhost:3306/db_user");
-            properties.put(Environment.USER,"root");
-            properties.put(Environment.PASS,"root");
+            properties.put(Environment.URL,URL);
+            properties.put(Environment.USER,USERNAME);
+            properties.put(Environment.PASS,PASSWORD);
 
             properties.put(Environment.SHOW_SQL,true);
             properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS,"thread");
